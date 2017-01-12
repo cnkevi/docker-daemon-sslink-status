@@ -200,7 +200,7 @@ def main():
 	SSList = []
 	last_result = {}
 	read_last_result()
-	resp = request.urlopen("http://blog.heycis.com/manage/ss.txt")
+	resp = request.urlopen("http://ssr.webutu.com/ssr.txt")
 	content = resp.read().decode("utf-8").split('\n')
 	for line in content:
 		if line:
